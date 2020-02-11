@@ -5,6 +5,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+
+	_ "github.com/onsi/ginkgo/ginkgo"
 )
 
 func TestMain(t *testing.T) {
